@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>88994DC0-71D5-4A13-8623-F8445E512092</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ParticleButton</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D0462E04-E66E-40F9-993A-438CD17C7A4D</key>
+		<string>ssh://github.com/uiue/ParticleButton.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ParticleButton.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D0462E04-E66E-40F9-993A-438CD17C7A4D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/uiue/ParticleButton.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D0462E04-E66E-40F9-993A-438CD17C7A4D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D0462E04-E66E-40F9-993A-438CD17C7A4D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ParticleButton</string>
+		</dict>
+	</array>
+</dict>
+</plist>
