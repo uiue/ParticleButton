@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  EmitterView.h
 //  ParticleButton
 //
 //  Created by FYZH on 14-2-22.
@@ -7,9 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+#import <QuartzCore/QuartzCore.h>
+@interface EmitterView : UIView
 
 @end

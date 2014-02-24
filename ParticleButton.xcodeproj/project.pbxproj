@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E11E54BA18BB0A3F00A35B2E /* button.gif in Resources */ = {isa = PBXBuildFile; fileRef = E11E54B918BB0A3F00A35B2E /* button.gif */; };
 		E168FF0818B8A2AA0082B5FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E168FF0718B8A2AA0082B5FE /* Foundation.framework */; };
 		E168FF0A18B8A2AA0082B5FE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E168FF0918B8A2AA0082B5FE /* CoreGraphics.framework */; };
 		E168FF0C18B8A2AA0082B5FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E168FF0B18B8A2AA0082B5FE /* UIKit.framework */; };
 		E168FF1218B8A2AA0082B5FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E168FF1018B8A2AA0082B5FE /* InfoPlist.strings */; };
 		E168FF1418B8A2AA0082B5FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E168FF1318B8A2AA0082B5FE /* main.m */; };
-		E168FF1818B8A2AA0082B5FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E168FF1718B8A2AA0082B5FE /* AppDelegate.m */; };
 		E168FF1A18B8A2AA0082B5FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E168FF1918B8A2AA0082B5FE /* Images.xcassets */; };
 		E168FF2118B8A2AB0082B5FE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E168FF2018B8A2AB0082B5FE /* XCTest.framework */; };
 		E168FF2218B8A2AB0082B5FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E168FF0718B8A2AA0082B5FE /* Foundation.framework */; };
 		E168FF2318B8A2AB0082B5FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E168FF0B18B8A2AA0082B5FE /* UIKit.framework */; };
 		E168FF2B18B8A2AB0082B5FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E168FF2918B8A2AB0082B5FE /* InfoPlist.strings */; };
 		E168FF2D18B8A2AB0082B5FE /* ParticleButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E168FF2C18B8A2AB0082B5FE /* ParticleButtonTests.m */; };
+		E168FF3F18B8A2D70082B5FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E168FF3718B8A2D70082B5FE /* AppDelegate.m */; };
+		E168FF4018B8A2D70082B5FE /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E168FF3918B8A2D70082B5FE /* CustomButton.m */; };
+		E168FF4118B8A2D70082B5FE /* EmitterView.m in Sources */ = {isa = PBXBuildFile; fileRef = E168FF3B18B8A2D70082B5FE /* EmitterView.m */; };
+		E168FF4218B8A2D70082B5FE /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E168FF3D18B8A2D70082B5FE /* MainViewController.m */; };
+		E168FF4318B8A2D70082B5FE /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E168FF3E18B8A2D70082B5FE /* MainViewController.xib */; };
+		E168FF4718B8A2FA0082B5FE /* snow1.png in Resources */ = {isa = PBXBuildFile; fileRef = E168FF4418B8A2FA0082B5FE /* snow1.png */; };
+		E168FF4818B8A2FA0082B5FE /* star1.png in Resources */ = {isa = PBXBuildFile; fileRef = E168FF4518B8A2FA0082B5FE /* star1.png */; };
+		E168FF4918B8A2FA0082B5FE /* stars2.png in Resources */ = {isa = PBXBuildFile; fileRef = E168FF4618B8A2FA0082B5FE /* stars2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E11E54B918BB0A3F00A35B2E /* button.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = button.gif; sourceTree = "<group>"; };
 		E168FF0418B8A2AA0082B5FE /* ParticleButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParticleButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E168FF0718B8A2AA0082B5FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E168FF0918B8A2AA0082B5FE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -40,14 +49,24 @@
 		E168FF1118B8A2AA0082B5FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E168FF1318B8A2AA0082B5FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E168FF1518B8A2AA0082B5FE /* ParticleButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ParticleButton-Prefix.pch"; sourceTree = "<group>"; };
-		E168FF1618B8A2AA0082B5FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E168FF1718B8A2AA0082B5FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E168FF1918B8A2AA0082B5FE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E168FF1F18B8A2AB0082B5FE /* ParticleButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParticleButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E168FF2018B8A2AB0082B5FE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E168FF2818B8A2AB0082B5FE /* ParticleButtonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ParticleButtonTests-Info.plist"; sourceTree = "<group>"; };
 		E168FF2A18B8A2AB0082B5FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E168FF2C18B8A2AB0082B5FE /* ParticleButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParticleButtonTests.m; sourceTree = "<group>"; };
+		E168FF3618B8A2D70082B5FE /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E168FF3718B8A2D70082B5FE /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E168FF3818B8A2D70082B5FE /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		E168FF3918B8A2D70082B5FE /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		E168FF3A18B8A2D70082B5FE /* EmitterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterView.h; sourceTree = "<group>"; };
+		E168FF3B18B8A2D70082B5FE /* EmitterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterView.m; sourceTree = "<group>"; };
+		E168FF3C18B8A2D70082B5FE /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		E168FF3D18B8A2D70082B5FE /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		E168FF3E18B8A2D70082B5FE /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		E168FF4418B8A2FA0082B5FE /* snow1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow1.png; sourceTree = "<group>"; };
+		E168FF4518B8A2FA0082B5FE /* star1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star1.png; sourceTree = "<group>"; };
+		E168FF4618B8A2FA0082B5FE /* stars2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stars2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +126,15 @@
 		E168FF0D18B8A2AA0082B5FE /* ParticleButton */ = {
 			isa = PBXGroup;
 			children = (
-				E168FF1618B8A2AA0082B5FE /* AppDelegate.h */,
-				E168FF1718B8A2AA0082B5FE /* AppDelegate.m */,
+				E168FF3618B8A2D70082B5FE /* AppDelegate.h */,
+				E168FF3718B8A2D70082B5FE /* AppDelegate.m */,
+				E168FF3C18B8A2D70082B5FE /* MainViewController.h */,
+				E168FF3D18B8A2D70082B5FE /* MainViewController.m */,
+				E168FF3E18B8A2D70082B5FE /* MainViewController.xib */,
+				E168FF3818B8A2D70082B5FE /* CustomButton.h */,
+				E168FF3918B8A2D70082B5FE /* CustomButton.m */,
+				E168FF3A18B8A2D70082B5FE /* EmitterView.h */,
+				E168FF3B18B8A2D70082B5FE /* EmitterView.m */,
 				E168FF1918B8A2AA0082B5FE /* Images.xcassets */,
 				E168FF0E18B8A2AA0082B5FE /* Supporting Files */,
 			);
@@ -118,6 +144,10 @@
 		E168FF0E18B8A2AA0082B5FE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E11E54B918BB0A3F00A35B2E /* button.gif */,
+				E168FF4418B8A2FA0082B5FE /* snow1.png */,
+				E168FF4518B8A2FA0082B5FE /* star1.png */,
+				E168FF4618B8A2FA0082B5FE /* stars2.png */,
 				E168FF0F18B8A2AA0082B5FE /* ParticleButton-Info.plist */,
 				E168FF1018B8A2AA0082B5FE /* InfoPlist.strings */,
 				E168FF1318B8A2AA0082B5FE /* main.m */,
@@ -219,7 +249,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E168FF4718B8A2FA0082B5FE /* snow1.png in Resources */,
+				E168FF4818B8A2FA0082B5FE /* star1.png in Resources */,
+				E168FF4918B8A2FA0082B5FE /* stars2.png in Resources */,
+				E11E54BA18BB0A3F00A35B2E /* button.gif in Resources */,
 				E168FF1218B8A2AA0082B5FE /* InfoPlist.strings in Resources */,
+				E168FF4318B8A2D70082B5FE /* MainViewController.xib in Resources */,
 				E168FF1A18B8A2AA0082B5FE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,7 +274,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E168FF1818B8A2AA0082B5FE /* AppDelegate.m in Sources */,
+				E168FF4018B8A2D70082B5FE /* CustomButton.m in Sources */,
+				E168FF4118B8A2D70082B5FE /* EmitterView.m in Sources */,
+				E168FF3F18B8A2D70082B5FE /* AppDelegate.m in Sources */,
+				E168FF4218B8A2D70082B5FE /* MainViewController.m in Sources */,
 				E168FF1418B8A2AA0082B5FE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,6 +479,7 @@
 				E168FF3218B8A2AB0082B5FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E168FF3318B8A2AB0082B5FE /* Build configuration list for PBXNativeTarget "ParticleButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +488,7 @@
 				E168FF3518B8A2AB0082B5FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
